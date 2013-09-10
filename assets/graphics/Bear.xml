@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b3200e02e27ecce0cf4cd95f57b823d8:1/1$ -->
+<Imageset Name="Bear" Imagefile="Bear.png" NativeHorzRes="375" NativeVertRes="375" AutoScaled="false">
+    <Image Name="Bear_Walk_01" XPos="2" YPos="2" Width="73" Height="180"/>
+    <Image Name="Bear_Walk_02" XPos="77" YPos="2" Width="97" Height="180"/>
+    <Image Name="Bear_Walk_03" XPos="176" YPos="2" Width="103" Height="180"/>
+    <Image Name="Bear_Walk_04" XPos="281" YPos="2" Width="82" Height="179"/>
+    <Image Name="Bear_Walk_05" XPos="2" YPos="184" Width="73" Height="180"/>
+    <Image Name="Bear_Walk_06" XPos="77" YPos="184" Width="73" Height="180"/>
+    <Image Name="Bear_Walk_07" XPos="152" YPos="184" Width="78" Height="180"/>
+    <Image Name="Bear_Walk_08" XPos="232" YPos="184" Width="73" Height="180"/>
+</Imageset>

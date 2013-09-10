@@ -36,7 +36,7 @@ So, We're using a experiment branch of EMO in [here] [EMO-BRANCH].
 ***所以，我們使用的是一個實驗性的EMO分支版本，[在這裡] [EMO-BRANCH]可以看到。***  
 
 To develope in EMO, the best way is using the latest [ADT Bundle] [ADT-Bundle] with SQDev plugin(link is on below!).  
-***開發EMO最佳的選擇是使用[ADT BBundle] [ADT-Bundle]懶人包加上SQDev外掛(連結在下面！)。***  
+***開發EMO最佳的選擇是使用[ADT Bundle] [ADT-Bundle]懶人包加上SQDev外掛(連結在下面！)。***  
 
 Coding References 程式參考
 -----------------

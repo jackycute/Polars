@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+
+    tools:context=".Start" >
+
+    <Button
+        android:id="@+id/start_ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_ch3"
+        android:layout_centerHorizontal="true"
+        android:text="Chapter2" />
+
+    <Button
+        android:id="@+id/start_ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_ch1"
+        android:layout_marginTop="47dp"
+        android:layout_toLeftOf="@+id/start_ch2"
+        android:text="Chapter3" />
+
+    <Button
+        android:id="@+id/start_ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/start_ch3"
+        android:layout_alignBottom="@+id/start_ch3"
+        android:layout_toRightOf="@+id/start_ch2"
+        android:text="Chapter4" />
+
+    <ImageButton
+        android:id="@+id/start_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#00000000"
+        android:src="@drawable/back_select" />
+
+    <Button
+        android:id="@+id/start_ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/start_back"
+        android:text="Chapter1" />
+
+</RelativeLayout>

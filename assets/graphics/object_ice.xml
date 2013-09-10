@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
-<!-- $TexturePacker:SmartUpdate:d24f1aee25d92d672b3478d7cf294d9a:1/1$ -->
-<Imageset Name="object_ice" Imagefile="object_ice.png" NativeHorzRes="124" NativeVertRes="414" AutoScaled="false">
-    <Image Name="ice05" XPos="2" YPos="2" Width="120" Height="56"/>
-    <Image Name="ice06" XPos="2" YPos="107" Width="104" Height="305"/>
-    <Image Name="ice09" XPos="2" YPos="60" Width="105" Height="45"/>
-</Imageset>

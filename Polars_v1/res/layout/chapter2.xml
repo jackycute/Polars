@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    tools:context=".Chapter2" >
+
+    <ImageButton
+        android:id="@+id/ch2_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:src="@drawable/back_select" />    
+        
+ <Button
+	android:id="@+id/ch2_lv1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:layout_below="@+id/ch2_back"
+	android:layout_marginTop="25dp"
+	android:layout_marginLeft="38dp"
+	android:text="Level01" />
+
+<Button
+	android:id="@+id/ch2_lv2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignBaseline="@+id/ch2_lv1"
+	android:layout_alignBottom="@+id/ch2_lv1"
+	android:layout_marginLeft="42dp"
+	android:layout_toRightOf="@+id/ch2_lv1"
+	android:text="Level02" />
+	
+<Button
+	android:id="@+id/ch2_lv3"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignBaseline="@+id/ch2_lv1"
+	android:layout_alignBottom="@+id/ch2_lv1"
+	android:layout_marginLeft="42dp"
+	android:layout_toRightOf="@+id/ch2_lv2"
+	android:text="Level03" />
+	
+<Button
+	android:id="@+id/ch2_lv4"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignBaseline="@+id/ch2_lv1"
+	android:layout_alignBottom="@+id/ch2_lv1"
+	android:layout_marginLeft="42dp"
+	android:layout_toRightOf="@+id/ch2_lv3"
+	android:text="Level04" />
+
+<Button
+    android:id="@+id/ch2_lv5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/ch2_lv1"
+    android:layout_below="@+id/ch2_lv1"
+    android:layout_marginTop="48dp"
+    android:text="Level05" />
+	
+<Button
+	android:id="@+id/ch2_lv6"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignBaseline="@+id/ch2_lv5"
+	android:layout_alignBottom="@+id/ch2_lv5"
+	android:layout_marginLeft="42dp"
+	android:layout_toRightOf="@+id/ch2_lv5"
+	android:text="Level06" />
+	
+<Button
+	android:id="@+id/ch2_lv7"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignBaseline="@+id/ch2_lv5"
+	android:layout_alignBottom="@+id/ch2_lv5"
+	android:layout_marginLeft="42dp"
+	android:layout_toRightOf="@+id/ch2_lv6"
+	android:text="Level07" />
+	
+<Button
+	android:id="@+id/ch2_lv8"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignBaseline="@+id/ch2_lv5"
+	android:layout_alignBottom="@+id/ch2_lv5"
+	android:layout_marginLeft="42dp"
+	android:layout_toRightOf="@+id/ch2_lv7"
+	android:text="Level08" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:text="Chapter2"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#FFFFFF"
+    android:textSize="40sp" />
+        
+</RelativeLayout>

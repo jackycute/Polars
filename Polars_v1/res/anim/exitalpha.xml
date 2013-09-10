@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:shareInterpolator="false">
+    <!-- 退出動畫效果  從可以看見到不可以看見，也就是1.0到0，變幻時間為5000毫秒-->
+    <alpha 
+        android:fromAlpha="1.0"
+        android:toAlpha="0"
+        android:duration="750"
+    />
+</set>

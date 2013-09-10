@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg_854_480"
+    tools:context=".Main" >
+
+    <ImageButton
+        android:id="@+id/main_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:src="@drawable/mute01" />
+
+    <ImageButton
+        android:id="@+id/main_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_exit"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/main_start"
+        android:background="#00000000"
+        android:src="@drawable/about_select" />
+
+    <ImageButton
+        android:id="@+id/main_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main_start"
+        android:layout_below="@+id/main_start"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="24dp"
+        android:background="#00000000"
+        android:src="@drawable/exit_select" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/version" />
+
+    <ImageButton
+        android:id="@+id/main_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_mute"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="105dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="#00000000"
+        android:src="@drawable/start_select" />
+
+</RelativeLayout>
